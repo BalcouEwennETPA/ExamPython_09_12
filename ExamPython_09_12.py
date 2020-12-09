@@ -4,7 +4,6 @@ init()
 from colorama import Fore, Back, Style
 
 listeMot = ["balcon" , "ballon" , "boules" , "suiver" , "viseur" , "abruti", "calque", "stereo" , "textes" , "argent"]
-
-print (listeMot)
-
+mot=random.choice(listeMot)
+print(random.choice(listeMot))
 input()
