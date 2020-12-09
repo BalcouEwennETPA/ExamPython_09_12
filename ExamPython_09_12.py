@@ -11,16 +11,23 @@ propMot = input ("faites une propositions de mots (six lettres max)")
 for i in range (len(mot)) :
         if propMot == mot :
             print (Fore.RED + mot)
+            print ("vous avez gagné")
         elif propMot [0] != mot [0]:
             print (Fore.BLUE + mot)
+            print("essaye encore")
         elif propMot [1] != mot [1]:
             print (Fore.BLUE + mot)
+            print("essaye encore")
         elif propMot [2] != mot [2]:
             print (Fore.BLUE + mot)
+            print("essaye encore")
         elif propMot [3] != mot [3]:
             print (Fore.BLUE + mot)
+            print("essaye encore")
         elif propMot [4] != mot [4]:
             print (Fore.BLUE + mot)
+            print("essaye encore")
         elif propMot [5] != mot [5]:
             print (Fore.BLUE + mot)
+            print("essaye encore")
 input ()
