@@ -50,6 +50,6 @@ elif(propMot [5] == mot[0]or propMot [5] == mot[1]or propMot [5] == mot[3]or pro
     print (Back.YELLOW + propMot[5],end="")
 else:
     print (Back.BLUE + propMot[5],end="")
-# les deux dernieres lettres apparaissent toujours en jaune sans meme que je sache pourquoi    
+# les deux dernieres lettres apparaissent toujours en jaune sans meme que je sache pourquoi voila   
 
 input()
