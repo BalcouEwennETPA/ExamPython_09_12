@@ -13,12 +13,32 @@ if propMot [0] == mot [0] :
     print (Back.RED + propMot)
     print(Style.RESET_ALL)
     print ("vous avez gagné")
-    print(Style.RESET_ALL)
+
 elif propMot [0] != mot [0]:
     print (Back.BLUE + propMot)
     print(Style.RESET_ALL)
     print("essaye encore")
-    print(Style.RESET_ALL)
+
+
+#   if (propMot [0] == mot [0]) :
+#       print (Back.RED + propMot[0],end="")
+#    elif(propMot [0] == mot[1]or propMot [0] == mot[2]or propMot [0] == mot[3]or propMot [0] == mot[4]or propMot [0] == mot[5]):
+#        print (Back.GREEN + propMot[0],end="")
+#    else:
+#        print (Back.BLUE + propMot[0],end(""))
+#
+#    if (propMot [1] == mot [1]) :
+#        print (Back.RED + propMot[1],end="")
+#    elif(propMot [1] == mot[1]or propMot [1] == mot[2]or propMot [1] == mot[3]or propMot [1] == mot[4]or propMot [1] == mot[5]):
+#        print (Back.GREEN + propMot[1],end="")
+#    else:
+#        print (Back.BLUE + propMot[1],end(""))
+# j'ai essayé cela mais je n'ai pas reussi a le faire fonctionner sur online gdb
+
+
+
+            
+input () 
 
 
             
