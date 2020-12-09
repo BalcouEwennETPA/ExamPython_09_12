@@ -8,5 +8,8 @@ mot=random.choice(listeMot)
 #print(random.choice(listeMot)) #choisir un mot random parmis la listeMot
 propMot = input ("faites une propositions de mots (six lettres max)")
 
+    for i in range (len(mot))
+        
+
 
 input()
