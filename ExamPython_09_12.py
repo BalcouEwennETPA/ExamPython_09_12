@@ -5,7 +5,7 @@ from colorama import Fore, Back, Style
 
 listeMot = ["balcon" , "ballon" , "boules" , "suiver" , "viseur" , "abruti", "calque", "stereo" , "textes" , "argent"]
 mot=random.choice(listeMot)
-print(mot) #choisir un mot random parmis la listeMot
+#print(mot) #choisir un mot random parmis la listeMot
 
 propMot = input ("faites une propositions de mot (six lettres max)")
 
