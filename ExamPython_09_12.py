@@ -4,10 +4,11 @@ init()
 from colorama import Fore, Back, Style
 
 listeMot = ["balcon" , "ballon" , "boules" , "suiver" , "viseur" , "abruti", "calque", "stereo" , "textes" , "argent"]
-
-print(random.choice(listeMot)) #choisir un mot random parmis la listeMot
-propMot = input ("faites une propositions de mots (six lettres max)")
 mot=random.choice(listeMot)
+#print(mot) #choisir un mot random parmis la listeMot
+
+propMot = input ("faites une propositions de mot (six lettres max)")
+
 for i in range (len(mot)) :
         if propMot == mot :
             print (Fore.RED + propMot)
