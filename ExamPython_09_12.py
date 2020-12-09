@@ -9,27 +9,17 @@ mot=random.choice(listeMot)
 
 propMot = input ("faites une propositions de mot (six lettres max)")
 
-for i in range (len(mot)) :
-        if propMot == mot :
-            print (Fore.RED + propMot)
-            print ("vous avez gagné")
-        elif propMot [0] != mot [0]:
-            print (Fore.BLUE + propMot)
-            print("essaye encore")
-        elif propMot [1] != mot [1]:
-            print (Fore.BLUE + propMot)
-            print("essaye encore")
-        elif propMot [2] != mot [2]:
-            print (Fore.BLUE + propMot)
-            print("essaye encore")
-        elif propMot [3] != mot [3]:
-            print (Fore.BLUE + propMot)
-            print("essaye encore")
-        elif propMot [4] != mot [4]:
-            print (Fore.BLUE + propMot)
-            print("essaye encore")
-        elif propMot [5] != mot [5]:
-            print (Fore.BLUE + propMot)
-            print("essaye encore")
+if propMot [0] == mot [0] :
+    print (Back.RED + propMot)
+    print(Style.RESET_ALL)
+    print ("vous avez gagné")
+    print(Style.RESET_ALL)
+elif propMot [0] != mot [0]:
+    print (Back.BLUE + propMot)
+    print(Style.RESET_ALL)
+    print("essaye encore")
+    print(Style.RESET_ALL)
+
+
             
 input ()
